@@ -1,0 +1,136 @@
+[
+    {
+        "name": "Javascript",
+        "img": "https://es.wikipedia.org/wiki/JavaScript#/media/Archivo:Unofficial_JavaScript_logo_2.svg",
+        "type": "front-end",
+        "description": "Lenguaje de programación que te permite implementar funciones complejas en páginas web."
+    },
+    {
+        "name": "CSS",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+        "type": "front-end",
+        "description": "Lenguaje de marcas enfocado a definir, crear y mejorar la presentación de un documento basado en HTML."
+    },
+    {
+        "name": "HTML",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+        "type": "front-end",
+        "description": "Lenguaje de marcado para la elaboración de páginas web."
+    },
+    {
+        "name": "Vue.js",
+        "img": "https://es.wikipedia.org/wiki/Vue.js#/media/Archivo:Vue.js_Logo_2.svg",
+        "type": "front-end",
+        "description": "Framework progresivo para construir interfaces de usuario."
+    },
+    {
+        "name": "React.js",
+        "img": "https://es.wikipedia.org/wiki/Vue.js#/media/Archivo:Vue.js_Logo_2.svg",
+        "type": "front-end",
+        "description": "Librería Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar su desarrollo."
+    },
+
+    {
+        "name": "Python",
+        "img": "https://es.wikipedia.org/wiki/Python#/media/Archivo:Python-logo-notext.svg",
+        "type": "datos",
+        "description": "Lenguaje de programación más popular para el desarrollo de ciencia de datos y del aprendizaje automático."
+    },
+    {
+        "name": "LaTex",
+        "img": "https://es.wikipedia.org/wiki/LaTeX#/media/Archivo:LaTeX_logo.svg",
+        "type": "otros",
+        "description": "Es un sistema de composición de textos, orientado a la creación de documentos escritos que presenten una alta calidad tipográfica."
+    },
+    {
+        "name": "Vuetify",
+        "img": "https://seeklogo.com/images/V/vuetify-logo-3BCF73C928-seeklogo.com.png",
+        "type": "front-end",
+        "description": "Framework progresivo de componentes para Vue.js sobre Material Design."
+    },
+    {
+        "name": "Bootstrap",
+        "img": "https://es.wikipedia.org/wiki/Bootstrap_(framework)#/media/Archivo:Bootstrap_logo.svg",
+        "type": "otros",
+        "description": "biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web."
+    },
+    {
+        "name": "Sass",
+        "img": "https://es.wikipedia.org/wiki/Sass#/media/Archivo:Sass_Logo_Color.svg",
+        "type": "front-end",
+        "description": "Lenguaje de script que es traducido a CSS."
+    },
+    {
+        "name": "Stylus",
+        "img": "https://es.wikipedia.org/wiki/Sass#/media/Archivo:Sass_Logo_Color.svg",
+        "type": "front-end",
+        "description": "Lenguaje preprocesador de hojas de estilo dinámico que se compila en CSS."
+    },
+    {
+        "name": "Firebase",
+        "img": "https://es.wikipedia.org/wiki/Firebase#/media/Archivo:Firebase_Logo.svg",
+        "type": "cloud",
+        "description": "Plataforma para el desarrollo de aplicaciones web y aplicaciones móviles desarrollada por Google."
+    },
+    {
+        "name": "Google cloud",
+        "img": "https://www.gstatic.com/devrel-devsite/prod/v236200e9f3bdf34d077efc081c4ecb460c88128ff369ccbfc69028c3ea4bf423/cloud/images/social-icon-google-cloud-1200-630.png",
+        "type": "cloud",
+        "description": "Plataforma que ha reunido todas las aplicaciones de desarrollo web que Google estaba ofreciendo por separado."
+    },
+    {
+        "name": "AWS",
+        "img": "https://es.wikipedia.org/wiki/Amazon_Web_Services#/media/Archivo:Amazon_Web_Services_Logo.svg",
+        "type": "cloud",
+        "description": "Colección de servicios de computación en la nube pública."
+    },
+    {
+        "name": "Node.js",
+        "img": "https://es.wikipedia.org/wiki/Node.js#/media/Archivo:Node.js_logo.svg",
+        "type": "back-end",
+        "description": "Entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en JavaScript."
+    },
+
+    {
+        "name": "MySQL",
+        "img": "https://es.wikipedia.org/wiki/MySQL#/media/Archivo:Mysql.svg",
+        "type": "datos",
+        "description": "Sistema de gestión de bases de datos relacional"
+    },
+    {
+        "name": "Matlab",
+        "img": "https://es.wikipedia.org/wiki/MATLAB#/media/Archivo:Matlab_Logo.png",
+        "type": "datos",
+        "description": "Sistema de cómputo numérico que ofrece un entorno de desarrollo integrado (IDE) con un lenguaje de programación propio (lenguaje M)."
+    },
+    {
+        "name": "Docker",
+        "img": "https://es.wikipedia.org/wiki/Docker_(software)#/media/Archivo:Docker_(container_engine)_logo.png",
+        "type": "back-end",
+        "description": "Proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software."
+    },
+    {
+        "name": "Git",
+        "img": "https://es.wikipedia.org/wiki/Git#/media/Archivo:Git-logo.svg",
+        "type": "datos",
+        "description": "Software de control de versiones."
+    },
+    {
+        "name": "Jest",
+        "img": "data:image/png;base64,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",
+        "type": "dev tools",
+        "description": "Utilizado para testear todo el código JavaScript."
+    },
+    {
+        "name": "Github",
+        "img": "data:image/png;base64,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",
+        "type": "dev tools",
+        "description": "plataforma de desarrollo colaborativo) para alojar proyectos utilizando el sistema de control de versiones Git."
+    },
+    {
+        "name": "Heroku",
+        "img": "https://es.wikipedia.org/wiki/MATLAB#/media/Archivo:Matlab_Logo.png",
+        "type": "cloud",
+        "description": "Plataforma como Servicio que permite manejar los servidores y sus configuraciones, escalamiento y la administración."
+    }
+]

@@ -1,0 +1,10 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+.click{
+    cursor: pointer;
+}
+h3.click:hover{
+    text-decoration: underline !important;
+    color: white !important;
+}

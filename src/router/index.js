@@ -1,28 +1,33 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
 
 Vue.use(VueRouter);
 
-const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home,
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
-  },
+// Configuración rutas
+const routerOptions = [
+  { name: 'AboutMe', path: '/aboutme' },
+  { name: 'Home', path: '/home' },
+  { name: 'Knowledges', path: '/knowledges' },
+  { name: 'Projects', path: '/projects' },
+  { name: 'Contact', path: '/contact' },
 ];
+// Rutas
+const routes = routerOptions.map((r) => ({
+  ...r,
+  // Lazy load
+  // "babel-eslint": "7.2.3"
+  component: () => import(/* webpackChunkName: "[request]" */`@/views/${r.name}.vue`),
+}));
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
+  scrollBehavior(to, from, savePosition) {
+    console.log(to, from, savePosition);
+    const container = document.querySelector(`#${to.name}`);
+    console.log({ x: container.scrollTop, y: container.scrollLeft });
+    return { x: container.scrollTop, y: container.scrollLeft };
+  },
   routes,
 });
 
