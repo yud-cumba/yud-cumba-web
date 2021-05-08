@@ -1,10 +1,10 @@
 <template>
   <v-card
     :color="background"
-    class="d-flex justify-center align-center"
+    class="view"
     id="AboutMe"
   >
-    <div class="d-flex about justify-center aling-center">
+    <div class="d-flex about justify-center aling-center ">
       <v-img
       src="@/assets/img/AvatarHi.png" ></v-img>
       <div :class="`pa-10 text-center ${textColor}--text`">
@@ -47,12 +47,12 @@ export default {
 };
 </script>
 <style scoped>
-#AboutMe {
+/* #AboutMe {
   height: 80vh;
-}
+} */
 .about {
     width: 75vw;
-}
+};
 @media only screen and (max-width: 400px) {
   .about {
     width: 100vw;

@@ -1,9 +1,16 @@
 <template>
-  <div id="Home">
-    <v-img :src="require(`../assets/img/${img}`)"
-    :height="imgHeigth">
+  <div class="view">
+    <!-- <v-card
+    :height="imgHeigth"> -->
       <NavBar :isMobile="isMobile" />
-      <div class="mx-2 my-12 pt-5 d-flex flex-column align-center">
+      <div class="pt-5 d-flex flex-column align-center"
+      >
+      <!-- <v-img
+      v-if="!isMobile"
+          width="150px"
+          class="cielo"
+          src="@/assets/img/cielo1.png"
+        ></v-img> -->
         <v-img
           width="500px"
           src="https://fontmeme.com/permalink/210329/63c8057c1ae08acb1021ad40f2540e94.png"
@@ -28,7 +35,7 @@
           {{btnText}}</h3>
         </div>
       </div>
-    </v-img>
+    <!-- </v-card> -->
   </div>
 </template>
 

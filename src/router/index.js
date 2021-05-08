@@ -22,12 +22,12 @@ const routes = routerOptions.map((r) => ({
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  scrollBehavior(to, from, savePosition) {
-    console.log(to, from, savePosition);
-    const container = document.querySelector(`#${to.name}`);
-    console.log({ x: container.scrollTop, y: container.scrollLeft });
-    return { x: container.scrollTop, y: container.scrollLeft };
-  },
+  // scrollBehavior(to, from, savePosition) {
+  //   console.log(to, from, savePosition);
+  //   const container = document.querySelector(`#${to.name}`);
+  //   console.log({ x: container.scrollTop, y: container.scrollLeft });
+  //   return { x: container.scrollTop, y: container.scrollLeft };
+  // },
   routes,
 });
 

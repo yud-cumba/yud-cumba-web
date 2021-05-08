@@ -1,17 +1,24 @@
 <template>
   <div>
-    <v-row v-if="isMobile" class="d-flex justify-space-between">
+    <v-row class="d-flex justify-space-between">
+      <v-img
+          width="130px"
+          class="cielo"
+          src="@/assets/img/cielo1.png"
+        ></v-img>
       <radial-menu
-        class="mt-5"
         :rotate="180"
+        :size="60"
         :style="`
-        margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 120px;
+        margin-top: 70px;
+        z-index:9;
+        position: fixed;
         background-color: ${mainColor};
         color: white;`"
-        :itemSize="50"
-        :radius="150"
-        :angle-restriction="90"
+        :itemSize="60"
+        :radius="160"
+        :angle-restriction="110"
       >
         <radial-menu-item
           v-for="(item, index) in items"
@@ -28,7 +35,7 @@
         :isMobile="isMobile"
       />
     </v-row>
-    <v-card v-else class="d-flex justify-space-between" :color="mainColor">
+    <!-- <v-card v-else class="d-flex justify-space-between" :color="mainColor">
       <v-icon>mdi-home</v-icon>
       <v-list class="d-flex" dark :color="mainColor">
         <v-list-item
@@ -46,7 +53,7 @@
         :initialState="false"
         :isMobile="isMobile"
       />
-    </v-card>
+    </v-card> -->
   </div>
 </template>
 
@@ -121,6 +128,12 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.cielo{
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  z-index: 10;
+}
 .list {
   width: 200px !important;
 }

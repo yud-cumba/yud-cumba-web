@@ -8,3 +8,51 @@ h3.click:hover{
     text-decoration: underline !important;
     color: white !important;
 }
+#app{
+    width: 100vw;
+    height: 100vh;
+}
+.mario {
+    width:90px;
+    height:140px;
+    margin:auto;
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+    background: url('../img/mariobros.png') repeat-x;
+    z-index: 15;
+}
+.floor{
+    height: 100px;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    background: url('../img/piso1.jpeg') repeat-x;
+  }
+
+.walking1{
+    background-position: 100% 10%;
+}
+.walking2{
+    background-position: 75% 10%;
+}
+.walking3{
+    background-position: 50% 10%;
+}
+.walking4{
+    background-position: 0% 10%;
+}
+.stop-front{
+    background-position:0 0 !important; 
+}
+.walk-front{
+    background-position:90% 0 !important;
+}
+
+.stop-back{
+    background-position:0 100% !important; 
+}
+.walk-back{
+    background-position:90% 100% !important;
+}
+
