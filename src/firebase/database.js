@@ -6,9 +6,16 @@ export async function getAllData(collection) {
     .database()
     .ref(collection)
     .once('value');
-  console.log('doc', doc.val());
   if (!doc.val()) return [];
   return Object.values(doc.val());
+}
+
+export async function getAll(collection) {
+  const doc = await firebase
+    .database()
+    .ref(collection)
+    .once('value');
+  return doc.val();
 }
 
 export async function getDataByChild(collection, child) {

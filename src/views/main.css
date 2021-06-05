@@ -13,6 +13,14 @@ h3.click:hover{
     height: 100vh;
 }
 
+.About{
+    background-position: 0% 0% !important;
+    background-size: auto 200% !important;
+    width: 30px;
+    height: 30px;
+    background: url('../img/pickup_About.b2ed49b0.png');
+}
+
 .floor{
     height: 100px;
     position: absolute;

@@ -1,0 +1,24 @@
+@mixin mario($left, $bottom ,$directory){
+    width:90px;
+    height:140px;
+    bottom: $bottom;
+    left: $left;
+    background: url($directory) repeat-x;
+  }
+
+@mixin brickStart ($left, $bottom, $number){
+    height: 75px;
+    width: $number*75px;
+    background: url('../assets/img/brick.png');
+    background-size: auto 100%;
+    position:relative;
+    left: $left;
+    bottom: $bottom;
+    /* border: 2px solid black; */
+  }
+@mixin coin(){
+  background-size: auto 200% !important;
+  width: 30px;
+  height: 30px;
+  background: url('./assets/img/pickup_coin.png');
+}
